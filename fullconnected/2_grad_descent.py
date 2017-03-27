@@ -101,3 +101,37 @@ with tf.Session(graph=graph) as session:
             print('Validation accuracy: %.1f%%' % accuracy(
                 valid_prediction.eval(), valid_labels))
     print('Test accuracy: %.1f%%' % accuracy(test_prediction.eval(), test_labels))
+
+
+
+
+
+# Initialized
+# Loss at step 0: 19.447712
+# Training accuracy: 8.8%
+# Validation accuracy: 10.8%
+# Loss at step 100: 2.202827
+# Training accuracy: 72.3%
+# Validation accuracy: 70.6%
+# Loss at step 200: 1.792594
+# Training accuracy: 75.6%
+# Validation accuracy: 73.1%
+# Loss at step 300: 1.564005
+# Training accuracy: 76.8%
+# Validation accuracy: 73.8%
+# Loss at step 400: 1.405726
+# Training accuracy: 77.9%
+# Validation accuracy: 74.3%
+# Loss at step 500: 1.286746
+# Training accuracy: 78.3%
+# Validation accuracy: 74.3%
+# Loss at step 600: 1.192492
+# Training accuracy: 78.9%
+# Validation accuracy: 74.6%
+# Loss at step 700: 1.115337
+# Training accuracy: 79.2%
+# Validation accuracy: 74.9%
+# Loss at step 800: 1.050748
+# Training accuracy: 79.6%
+# Validation accuracy: 75.1%
+# Test accuracy: 83.2%
