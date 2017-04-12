@@ -6,7 +6,7 @@ from tensorflow.python.framework import ops
 graph = tf.Graph()
 
 # 我们将增加下列样本数据：
-# x-data: 50个随机样本，服从正态分布 ~ N(-1, 1).50个随机样本，服从正态分布 ~ N(1, 1)
+# x-data: 50个随机样本，服从正态分布 ~ N(-1, 1).50个随机样本，服从正态分布 ~ N(3, 1)
 # target: 50个等于0的值,50个等于1的值
 # 我们将符合二元分类模型：sigmoid(x+A) < 0.5 -> 0 else 1
 # 理论上，A应该是 -(mean1 + mean2)/2
