@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
 
 A = np.array([[4, 0], [0, 2], [1, 1]], dtype=np.float)
 b = np.array([[2], [0], [11]], dtype=np.float)
