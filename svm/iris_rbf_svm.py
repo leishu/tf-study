@@ -32,7 +32,7 @@ with graph.as_default():
     y_target = tf.placeholder(shape=[None, 1], dtype=tf.float32)
     prediction_grid = tf.placeholder(shape=[None, 2], dtype=tf.float32)
 
-    # Create variables for svm
+    # 增加SVM变量
     A = tf.Variable(tf.random_normal(shape=[1, batch_size]))
 
     gamma = tf.constant(-25.0)
